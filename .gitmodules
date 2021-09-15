@@ -1,6 +1,0 @@
-[submodule "Vim/vim-hybrid"]
-	path = Vim/vim-hybrid
-	url = https://github.com/w0ng/vim-hybrid.git
-[submodule "Vim/Cica"]
-	path = Vim/Cica
-	url = https://github.com/miiton/Cica.git
