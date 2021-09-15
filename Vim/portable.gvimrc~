@@ -10,7 +10,7 @@ set lines=35
 set columns=90
 set visualbell t_vb=
 set transparency=235
-
+"
 "On Windows
 if has('win32') || has('win64')
     set guifont=Consolas:h11:cANSI

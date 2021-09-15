@@ -64,17 +64,18 @@ noremap gk k
 
 
 "--------------------------------------------------------------------
-"plugin
+" Install zip manually
 "--------------------------------------------------------------------
-"NeoBundle‚ÍŽg‚í‚È‚¢
+"vim-hybrid
+"Cica font
 "vim-trailing-whitespace
-"indentLine
 "vim-smartinput
 "caw.vim
-"neocomlete.vim
+"(neocomlete.vim)
 "
 "vim-trailing-whitespace
-"autocmd BufWritePre * :FixWhitespace
+autocmd BufWritePre * :FixWhitespace
+"
 "caw.vim
-"nmap cc <Plug>(caw:hatpos:toggle)
-"vmap cc <Plug>(caw:hatpos:toggle)
+nmap cc <Plug>(caw:hatpos:toggle)
+vmap cc <Plug>(caw:hatpos:toggle)
