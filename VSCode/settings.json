@@ -1,0 +1,48 @@
+{
+    "C_Cpp.clang_format_style": "file",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "source": "Git Bash",
+            "workbench.sideBar.location": "right"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.tabs.location": "right",
+    "workbench.panel.defaultLocation": "right",
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.easymotion": true,
+    "vim.visualstar": true,
+    "vim.useCtrlKeys": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "workbench.activityBar.visible": true,
+    "editor.fontFamily": "'Ubuntu Mono', Consolas, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+    "vim.debug.silent": true,
+    "editor.fontSize": 14,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.rendererType": "dom",
+    "latex-workshop.message.log.show": false,
+    "latex-workshop.message.badbox.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "editor.insertSpaces": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "tabnine.experimentalAutoImports": true,
+    "liveServer.settings.donotShowInfoMsg": true
+}
