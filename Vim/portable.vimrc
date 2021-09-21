@@ -10,6 +10,7 @@ set encoding=utf-8
 set fileencodings=cp932,iso-2022-jp,euc-jp,sjis,utf-8
 set fileformats=unix,dos,mac
 
+set nobackup
 set noswapfile
 set undofile
 set undodir=~/vimfiles/undo
@@ -66,16 +67,9 @@ noremap gk k
 "--------------------------------------------------------------------
 " Install zip manually
 "--------------------------------------------------------------------
-"vim-hybrid
-"Cica font
-"vim-trailing-whitespace
-"vim-smartinput
-"caw.vim
-"(neocomlete.vim)
-"
 "vim-trailing-whitespace
 autocmd BufWritePre * :FixWhitespace
-"
+
 "caw.vim
 nmap cc <Plug>(caw:hatpos:toggle)
 vmap cc <Plug>(caw:hatpos:toggle)
