@@ -1,5 +1,0 @@
-BasedOnStyle: Google
-AllowShortIfStatementsOnASingleLine : false
-AllowShortLoopsOnASingleLine : false
-AlwaysBreakTemplateDeclarations : true
-IndentWidth: 4
